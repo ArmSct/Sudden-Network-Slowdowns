@@ -24,13 +24,13 @@ DeviceNetworkEvents
 
 
 After observing failed connection requests from our suspected host (10.0.0.5) in chronological order, I noticed a port scan was taking place due to the sequential order of the ports.
-
+```kql
 let IPInQuestion = "10.0.0.5";
 DeviceNetworkEvents
 | where ActionType == "ConnectionFailed"
 | where LocalIP == IPInQuestion
 | order by Timestamp desc
-
+```
 <img width="659" height="360" alt="p2" src="https://github.com/user-attachments/assets/1b17a2b3-79ed-431e-9e8d-853e00fdebf8" />
 
 I looked at the DeviceProcessEvents table to look for any suspicious activity around when the port scan started. Noticed a PowerShell script named "portscan.ps1" launch at 2025-08-15T16:37:27.6193539Z.
