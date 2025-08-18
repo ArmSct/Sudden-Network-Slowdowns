@@ -57,7 +57,8 @@ I logged into the suspect PC and observed the PowerShell script that was used to
 
 We found that the port scan script was launched by the system account. This was not expected behavior and not setup by admins. I isolated the device and ran a malware scan. The malware scan produced no results, out of caution, we kept the device isolated and put in a ticket to have it reimaged.
 
-<img width="748" height="594" alt="p5" src="https://github.com/user-attachments/assets/7d49e016-4dfd-4b8c-a25c-7a0451f38c05" />
+<img width="734" height="556" alt="image" src="https://github.com/user-attachments/assets/b76e1caa-b733-4fd4-a6b1-bbcac21d2a94" />
+
 
 ---
 Relevant MITRE ATT&CK TTPs:
