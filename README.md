@@ -2,7 +2,7 @@
 # Threat Hunt Report: Sudden Network Slowdown
 
 ## Platforms and Languages Leveraged
-- Windows 10 Virtual Machines (Microsoft Azure)
+- Windows 10 Virtual Machines (Microsoft Azure) 
 - EDR Platform: Microsoft Defender for Endpoint
 - Kusto Query Language (KQL) 
 
