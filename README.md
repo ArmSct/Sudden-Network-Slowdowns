@@ -11,7 +11,7 @@
 The server team has noticed a significant network performance degradation on some of their older devices attached to the network in the 10.0.0.0/16 network. After ruling out external DDoS attacks. All internal traffic is allowed by default, and PowerShell and other apps are unrestricted. Someone may be downloading large files or performing port scans on local hosts.
 
 ---
-## Timeline Summary and Findings
+## Timeline Summary and Findings 
 
 windows-target-1 was found failing several connection requests.
 ```kql
