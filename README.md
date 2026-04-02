@@ -13,7 +13,7 @@ The server team has noticed a significant network performance degradation on som
 ---
 ## Timeline Summary and Findings 
 
-windows-target-1 was found failing several connection requests.
+windows-target-1 was found failing several connection requests. 
 ```kql
 DeviceNetworkEvents
 | where ActionType == "ConnectionFailed"
