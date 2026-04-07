@@ -33,7 +33,7 @@ DeviceNetworkEvents
 ```
 <img width="659" height="360" alt="p2" src="https://github.com/user-attachments/assets/1b17a2b3-79ed-431e-9e8d-853e00fdebf8" />
 
-I looked at the DeviceProcessEvents table to look for any suspicious activity around when the port scan started. Noticed a PowerShell script named "portscan.ps1" launch at 2025-08-15T16:37:27.6193539Z.
+I looked at the DeviceProcessEvents table to look for any suspicious activity around when the port scan started. Noticed a PowerShell script named "portscan.ps1" launch at 2025-08-15T16:37:27.6193539Z. 
 
 ```kql
 let VMName = "windows-target-1";
